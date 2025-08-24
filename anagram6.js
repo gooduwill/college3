@@ -1,4 +1,4 @@
 function anagram(num1,num2){
     return num1.toString().split('').sort().join('')==num2.toString().split('').sort().join('')
 }
-console.log(anagram(432,243))
+console.log(anagram(432,2430202))
